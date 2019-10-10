@@ -5,7 +5,8 @@ RUN apt-get update && apt-get install -y \
     dnsutils            \
     telnet              \
     net-tools           \
-    netcat \
+    netcat              \
+    vim                 \
     && apt-get clean
 
 COPY rootfs/ /
